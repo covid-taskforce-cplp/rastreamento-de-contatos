@@ -1,3 +1,11 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
 body{
 	margin:50px;
 	background:#eeeeee;
@@ -18,7 +26,30 @@ img{
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    margin:0px;
-  }
+	* {
+		padding:0;
+		margin:0;
+		vertical-align:baseline;
+		list-style:none;
+		border:0
+		}
+	body{
+		margin:0%;
+		width: 100%;
+	}
+	#article{
+		width: 100%;
+		max-width: 100%;
+		margin:0 auto;
+		width: 100%;
+	}
+	img{
+		display:inline-block;
+		width:320px;
+		width: 100%;
+	}
+	#onePage img{
+		width: 650px;
+		width: 100%;
+	}
 }
